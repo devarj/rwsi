@@ -4,7 +4,7 @@
 		<div class="uk-slidenav-position"  data-uk-slideshow="{autoplay:true}">
 		    <ul class="uk-slideshow">
 				 	
-		        <li><img src="<?php echo base_url('assets/img/banner1.PNG');?>" alt="Slider1"></li>
+		        <li><img src="<?php echo base_url('assets/img/banner.jpg');?>" alt="Slider1"></li>
 		    </ul>
 		    <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
 		    <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
