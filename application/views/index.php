@@ -1,10 +1,9 @@
 <?php include('header.php'); ?>
 	<!-- End Header -->
 	<div class="main-container main-cont">
-		<div class="uk-slidenav-position"  data-uk-slideshow="{autoplay:true}">
+		<div class="uk-slidenav-position"  data-uk-slideshow="{autoplay:true}" style="min-height:450px;">
 		    <ul class="uk-slideshow">
-				 	
-		        <li><img src="<?php echo base_url('assets/img/banner1.PNG');?>" alt="Slider1"></li>
+		        <li style="min-height:450px;"><img src="<?php echo base_url('assets/img/banner.jpg');?>" alt="Slider1" style="min-height:450px;"></li>
 		    </ul>
 		    <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
 		    <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
@@ -163,7 +162,26 @@
 				
 			</div>
 		</div>
-		
+
+		<hr class="uk-divider" />
+		<!-- Floor Plans -->
+			<div class="home-text-bottom">
+			<div class="hr-red">
+				<span class="hl-text">Floor Plans</span>
+			</div>
+		</div>
+		<div class="uk-grid uk-grid-small f-pl uk-margin-large-top">
+			<div class="uk-width-medium-1-2 uk-width-small-1-1">
+				<div class="img-cont">
+					<img class="" src="<?php echo base_url('assets/img/ground_floor.jpg'); ?>" />
+				</div>
+			</div>
+			<div class="uk-width-medium-1-2 uk-width-small-1-1">
+				<div class="img-cont">
+					<img class="" src="<?php echo base_url('assets/img/second_fp.jpg'); ?>" />
+				</div>
+			</div>
+		</div>
 	</div><!-- End Main-container -->
 	<div class="margin100"></div>
 

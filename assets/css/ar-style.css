@@ -1420,7 +1420,12 @@ li.updates a{cursor: pointer !important; }
 	}
 }
 
+/*new custom styles*/
 
+.f-pl .uk-width-small-1-1 .img-cont{
+	padding: 10px;
+	border:1px solid #22AE44;
+}
 
 
 
